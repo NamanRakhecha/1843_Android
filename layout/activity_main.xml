@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="138dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="horizontal 2"
+        android:background="#FFd700"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="16dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="horizontal 1"
+            android:background="#FF6D00"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="261dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="vertical 1"
+            android:background="#FF3D54"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="261dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="vertical 2"
+            android:background="#A23D54"
+            />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="588dp"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:layout_width="70"
+            android:layout_height="20"
+            android:background="#FFFF23">
+            <TextView
+                android:text="tab                          1"
+                android:background="#FFD500"
+            />
+            <TextView
+                android:text="tab                          2"
+
+                />
+            <TextView
+                android:text="tab                          3"
+                android:background="#FFD500"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="70"
+            android:layout_height="20" >
+
+            <TextView
+                android:text="tab                          1"
+
+                />
+            <TextView
+                android:text="tab                          2"
+                android:background="#FFD500"
+                />
+            <TextView
+                android:text="tab                          3"
+
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="70"
+            android:layout_height="20">
+
+            <TextView
+                android:text="tab                          1"
+                android:background="#FFD500"
+                />
+            <TextView
+                android:text="tab                          2"
+
+                />
+            <TextView
+                android:text="tab                          3"
+                android:background="#FFD500"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="70"
+            android:layout_height="20" >
+
+            <TextView
+                android:text="tab                          1"
+
+                />
+            <TextView
+                android:text="tab                          2"
+                android:background="#FFD500"
+                />
+            <TextView
+                android:text="tab                          3"
+
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="70"
+            android:layout_height="20" >
+
+            <TextView
+                android:text="tab                          1"
+                android:background="#FFD500"
+                />
+            <TextView
+                android:text="tab                          2"
+
+                />
+            <TextView
+                android:text="tab                          3"
+                android:background="#FFD500"
+                />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="190dp"
+        android:layout_height="235dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="282dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#555555"
+            android:text="frame 1"
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
