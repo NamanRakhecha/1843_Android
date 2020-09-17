@@ -63,7 +63,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="629dp">
+        android:layout_height="629dp"
+          android:scaleY="-1">
 
         <LinearLayout
             android:id="@+id/pagecontainer"
