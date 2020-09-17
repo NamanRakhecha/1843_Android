@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="310dp"
+        android:layout_marginRight="310dp"
+        android:layout_marginBottom="32dp"
+        android:text="RED"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="98dp"
+        android:background="#FF0000" />
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="209dp"
+        android:layout_marginRight="209dp"
+        android:layout_marginBottom="29dp"
+        android:text="GREEN"
+        android:background="#00FF00" />
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="28dp"
+        android:text="BLUE"
+        android:background="#0000FF" />
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="29dp"
+        android:text="yellow"
+        android:background="#FFFF00"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="629dp">
+
+        <LinearLayout
+            android:id="@+id/pagecontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</RelativeLayout>
